@@ -13,4 +13,4 @@ refer to this link for lendingclub project as git lfs is not working: https://co
 
 ●	Found the average increase of suicides annually by Performing hypothesis tests using Kruskal Wallis and T-tests.
 
-<img src="https://user-images.githubusercontent.com/55968160/81120965-97473200-8ee2-11ea-936e-f1142ee00ae0.png" alt="Thinkful,Inc." width="500" height="500">
+<img src="https://user-images.githubusercontent.com/55968160/81120965-97473200-8ee2-11ea-936e-f1142ee00ae0.png" alt="Thinkful,Inc." width="1000" height="400">
