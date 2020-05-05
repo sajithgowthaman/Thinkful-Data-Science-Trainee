@@ -1,0 +1,26 @@
+to start
+
+1. java -mx512m -cp "./data/corenlp/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000 &
+2. python main.py
+
+to install
+DOWNLOAD_PATH="./data/corenlp"
+echo "Will download to: $DOWNLOAD_PATH"
+
+pushd "/tmp" || exit
+wget -O "stanford-corenlp-full-2017-06-09.zip" "http://nlp.stanford.edu/software/stanford-corenlp-full-2017-06-09.zip"
+unzip "stanford-corenlp-full-2017-06-09.zip"
+rm "stanford-corenlp-full-2017-06-09.zip"
+popd || exit
+
+mkdir -p "$DOWNLOAD_PATH"
+mv "/tmp/stanford-corenlp-full-2017-06-09/"*".jar" "$DOWNLOAD_PATH/"
+
+echo "Download completed...!!"
+
+echo "installing all the dependencies"
+pip install -r ./requirement.txt
+python setup.py develop
+
+echo "start JAVA Server"
+
