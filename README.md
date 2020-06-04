@@ -1,5 +1,7 @@
 # Thinkful-Data-Science-Trainee
+
 ![fd6d9082-1280-40ea-95c0-35ef13ad593f_200x200](https://user-images.githubusercontent.com/55968160/83739551-981ad300-a60a-11ea-82ec-b9af5956e426.png)
+
 This repository will consist of few projects and problems that I have solved under the supervision of a mentor as a part of my intensive data science program at Thinkful, Inc.
 
 ●	Improved the prediction model of Boston house prices to 97% accuracy; Evaluated best model on test data.
